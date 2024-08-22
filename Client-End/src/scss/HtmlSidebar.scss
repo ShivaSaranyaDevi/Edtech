@@ -1,0 +1,36 @@
+.HtmlSidebar-Container{
+    width: 200px;
+    background-color: #f2f5f7;
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    scrollbar-color: #f2f5f7 ;
+    scrollbar-width: thin;
+    padding: 10px 0px;
+
+}
+
+.HtmlSidebar-Container.open{
+    width: 200px;
+}
+
+.HtmlSidebar-Container.collapsed{
+   display: none;}
+
+.HtmlSidebar-menu{
+    list-style: none;
+
+    a{
+        color: black;
+        align-items: center;
+      }
+
+      li{
+        padding: 5px 0px;
+      }
+}

@@ -1,0 +1,59 @@
+.navbar {
+    background-color: rgb(242, 245, 247);
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 1px 30px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+.loggedin-student {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.loggedin-student-image {
+    height: 30px;
+    width: 30px;
+    border-radius: 80%;
+}
+
+.loggedin-student-name {
+    margin-left: 5px;
+    align-items: center;
+    margin-top: 15px;
+    color: #464444;
+    font-weight: 500;
+}
+
+.search-container {
+    position: relative;
+    text-align: left;
+    .search-holder {
+        padding: 5px 50px;
+        border: 2px solid aliceblue;
+    }
+
+    .search-icon {
+        position: absolute;
+        top: 29%;
+        left: 90%;
+        color: #797777;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+.search-container{
+    display: none;
+}
+}
+    

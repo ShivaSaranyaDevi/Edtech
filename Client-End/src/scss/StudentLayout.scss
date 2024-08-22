@@ -1,0 +1,36 @@
+.profilePopUp{
+    position: fixed;
+    top: 9.3%;
+    right: 1px;
+    width: 300px;
+    max-height: 90vh;
+    background-color: #fff;
+    overflow-y: auto;
+    z-index: 1000;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.StudentLayout-body{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.StudentmainContent-body.open{
+    margin-left: 200px;
+}
+
+.StudentmainContent-body{
+    padding: 10px 15px;
+    margin-top: 50px;
+
+}
+.Studentnavbar-body{
+    z-index: 1000;
+}
+
+.sidebar-body{
+    margin-top: 100px;
+}
+
+

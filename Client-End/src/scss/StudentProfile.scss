@@ -1,0 +1,49 @@
+.StudentProfile-container {
+    padding: 10px;
+    margin: 0;
+    border: 3px solid #f2f5f7;
+}
+
+.StudentProfile-header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f2f5f7;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    margin-bottom: 5px;
+
+
+    .student-image {
+        height: 50px;
+        width: 50px;
+        border-radius: 80%;
+    }
+
+    .StudentProfile-details p {
+        margin: 0;
+        font-weight: 600;
+    }
+}
+
+.StudentProfile-content {
+    padding: 20px;
+    background-color: #f2f5f7;
+
+
+    .StudentProfile-menu {
+        list-style: none;
+
+    }
+
+    .StudentProfile-menu li {
+        padding: 10px 0px;
+        font-weight: 500;
+        cursor: pointer;
+
+    }
+
+    .logout-option :hover {
+        color: red;
+    }
+}

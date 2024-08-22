@@ -1,0 +1,27 @@
+.HomeNavbar {
+    background-color: rgb(242, 245, 247);
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px 30px;   
+    align-items: center;
+
+}
+
+.HomeNavbar-brand {
+    font-size: 1.5em;
+}
+
+.HomeNavbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin: 0px 20px;
+
+}
+
+.HomeNavbar-menu li {
+    margin-left: 20px;
+}

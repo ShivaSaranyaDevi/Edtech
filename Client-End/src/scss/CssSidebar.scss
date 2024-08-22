@@ -1,0 +1,35 @@
+.CssSidebar-Container{
+    width: 200px;
+    background-color: #f2f5f7;
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    padding: 10px 0px;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    overflow-y: scroll;
+    scrollbar-color: #f2f5f7 ;
+    scrollbar-width: thin;
+
+}
+
+.CssSidebar-Container.open{
+    width: 200px;
+}
+
+.CssSidebar-Container.collapsed{
+   display: none;}
+
+.CssSidebar-menu{
+    list-style: none;
+
+    a{
+        color: black;
+        align-items: center;
+      }
+
+      li{
+        padding: 5px 0px;
+      }
+}

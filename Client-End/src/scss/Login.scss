@@ -1,0 +1,58 @@
+
+.Login-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f2f5f7;
+  }
+  
+  .Login-body {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .card {
+    border-radius: 8px;
+  }
+  
+  .card-header {
+    background-color: white;
+    color: black;
+    padding:20px;
+
+  }
+  
+  .heading {
+    margin: 0;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .card-body {
+    padding: 20px;
+    background-color: #f2f5f7;
+
+  }
+  
+  .alert {
+    margin-bottom: 10px;
+  }
+  
+  .form-control {
+    border-radius: 4px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 4px;
+    padding: 5px 20px;
+    font-size: 15px ;
+    margin-left: 120px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
