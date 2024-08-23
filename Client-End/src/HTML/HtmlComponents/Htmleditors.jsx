@@ -27,23 +27,23 @@ function Htmleditors() {
           </ul>
         </div>
         <div className='Htmleditors-section4'>
-          <h5>1.Notepad</h5>
+          <h5>1. Notepad</h5>
           <p>Notepad is a simple text editor that is also used to write HTML code. It is an inbuilt desktop application available in Windows OS. </p>
         </div>
         <div className='Htmleditors-section5'>
-          <h5>2.Sublime Text Editor</h5>
+          <h5>2. Sublime Text Editor</h5>
           <p>Sublime is a cross-platform code editor tool. It supports all markup languages and is used as an editor for HTML. </p>
         </div>
         <div className='Htmleditors-section6'>
-          <h5>3.Brackets</h5>
+          <h5>3. Brackets</h5>
           <p>Brackets is an open-source software primarily used for Web development. It provides live HTML, CSS, and JavaScript editing functionality.</p>
         </div>
         <div className='Htmleditors-section7'>
-          <h5>4.Visual Studio Code</h5>
+          <h5>4. Visual Studio Code</h5>
           <p>It is one of the most popular code editors of today’s generation.</p>
         </div>
         <div className='Htmleditors-section8'>
-          <h5>5.Atom</h5>
+          <h5>5. Atom</h5>
           <p>Atom is an open-source code editor tool for MAC, Linux, and Windows. We can use Atom to write and edit HTML code. Similar to the Notepad editor.</p>
         </div>
         <div className="Htmleditors-section9">

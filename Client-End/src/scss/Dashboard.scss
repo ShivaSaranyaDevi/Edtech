@@ -41,7 +41,7 @@
                 padding: 5px 20px;
                 margin-top: 10px;
                 border: none;
-                background-color: #007bff;
+                background-color: #0D6EFD;
                 color: #fff;
                 font-size: 1rem;
                 cursor: pointer;
@@ -87,6 +87,7 @@
             h3 {
                 margin-top: 0;
                 font-size: 1.2rem;
+                color: #0D6EFD;
             }
 
             p {
@@ -95,3 +96,11 @@
         }
     }
 }
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    .dashboard-container-section3{
+        display: flex;
+        flex-direction: column;
+    }
+  
+  }

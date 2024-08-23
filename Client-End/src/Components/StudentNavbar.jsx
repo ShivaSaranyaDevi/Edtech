@@ -4,9 +4,11 @@ import { Link } from 'react-router-dom';
 import { FaSearch } from "react-icons/fa";
 import { useState, useEffect } from 'react';
 
-const StudentNavbar = ({handleLogout}) => {
+const StudentNavbar = ({ handleLogout, searchQuery, setSearchQuery }) => {
     const [data, setData] = useState([]);
-
+    const handleSearch = (e) => {
+        setSearchQuery(e.target.value)
+    }
     useEffect(() => {
         const fetchData = () => {
             try {
@@ -21,13 +23,14 @@ const StudentNavbar = ({handleLogout}) => {
         };
 
         fetchData();
-    }, []);
-
+    }, []);``
     return (
         <nav className="navbar">
             <div className="navbar-brand"><Link to="/dashboard">VISION</Link></div>
             <div className='search-container'>
-                <input type='search' placeholder='search' className='search-holder'></input>
+                <input type='text' placeholder='search'
+                    value={searchQuery}
+                    onChange={handleSearch} className='search-holder'></input>
                 <FaSearch className='search-icon' />
             </div>
             <div className='loggedin-student'>
@@ -36,7 +39,6 @@ const StudentNavbar = ({handleLogout}) => {
                 }&nbsp;{data.last_name}</p>
             </div>
         </nav>
-
     );
 };
 

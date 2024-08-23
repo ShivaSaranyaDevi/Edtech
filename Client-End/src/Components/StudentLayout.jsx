@@ -18,6 +18,7 @@ function StudentLayout() {
   const [htmlsidebarOpen, setHtmlSidebarOpen] = useState(false)
   const [cssSidebarOpen, setCssSidebarOpen] = useState(false)
   const location = useLocation();
+  const [searchQuery, setSearchQuery] = useState('');
 
 
 
@@ -43,7 +44,7 @@ function StudentLayout() {
   return (
     <div className='StudentLayout-Container'>
       <div className='Studentnavbar-body'>
-        <StudentNavbar handleLogout={handleProfile} />
+        <StudentNavbar handleLogout={handleProfile} searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
         <StudentNavbarCourses handleHtml={toggleHtmlSidebar} handleCss={toggleCssSidebar} />
       </div>
       <div className='StudentLayout-body'>
